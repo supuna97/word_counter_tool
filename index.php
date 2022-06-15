@@ -4,12 +4,13 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <link rel="shortcut icon" href="images/logo.png">
-    <title>Word Counter</title>
+    <link rel="shortcut icon" href="">
+    <title>Word Counter Tool - Free</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="" />
-    <meta name="keywords" content="" />
-    <meta name="author" content="" />
+    <meta name="description" content="This is a free online word counter tool." />
+    <meta name="keywords" content="word counter, online, online free word counter, worder counter genarate, 
+    supun nanayakkara, ebats technologies, sri lanka, programming, software development, software, web app, website, online tool" />
+    <meta name="author" content="Supun Nanayakkara" />
 
     <!-- Facebook and Twitter integration -->
     <meta property="og:title" content="" />
@@ -30,32 +31,23 @@
     <link rel="stylesheet" href="css/icomoon.css">
     <!-- Bootstrap  -->
     <link rel="stylesheet" href="css/bootstrap.css">
-
     <!-- Magnific Popup -->
     <link rel="stylesheet" href="css/magnific-popup.css">
-
     <!-- Flexslider  -->
     <link rel="stylesheet" href="css/flexslider.css">
-
     <!-- Owl Carousel -->
     <link rel="stylesheet" href="css/owl.carousel.min.css">
     <link rel="stylesheet" href="css/owl.theme.default.min.css">
-
     <!-- Theme style  -->
     <link rel="stylesheet" href="css/style.css">
-
     <!--Font awesome-->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
-
     <!-- jQuery -->
     <script src="js/jquery.min.js"></script>
-
     <!-- Modernizr JS -->
     <script src="js/modernizr-2.6.2.min.js"></script>
-
     <!--Ajax-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-
     <!--Html-Docx-->
     <script src="js/html-docx.js"></script>
     <!-- FOR IE9 below -->
@@ -73,7 +65,7 @@
     <div id="page">
         <nav class="colorlib-nav" role="navigation">
             <div class="top-menu">
-                <h2 style="text-align: center; color: #2D4B92; font-weight: bold;">Online Word Counter Tool</h3>
+                <h2 class="title-new">Online Word Counter Tool</h3>
             </div>
         </nav>
         <div>
@@ -86,7 +78,7 @@
             </div>
         </div>
         <br />
-        <div style="text-align: center">
+        <div class="btn-dev">
             <div class="col-md-4 col-md-offset-4">
                 <button class="btn  btn-color" value="save" id="save"><i class="far fa-file-word"></i> Save as Doc</button>
                 <button class="btn  btn-color" onclick="myFunction()"><i class="far fa-file-pdf"></i> Save as PDF</button>
@@ -166,7 +158,7 @@
 
             <div class="row">
 
-                <div class="col-md-6 col-md-offset-3 " style="margin-top: 30px; text-align: center">
+                <div class="col-md-6 col-md-offset-3 footer-css">
                     <p>
                         <small class="block">
                             Copyright &copy;<script>
@@ -202,16 +194,15 @@
     <script src="js/magnific-popup-options.js"></script>
     <!-- Main -->
     <script src="js/main.js"></script>
-
+    <!-- Disabled lines -->
     <script type="text/javascript">
-        window.oncontextmenu = function () {
+        window.oncontextmenu = function() {
             return false;
         }
-        $(document).keydown(function (event) {
+        $(document).keydown(function(event) {
             if (event.keyCode == 123) {
                 return false;
-            }
-            else if ((event.ctrlKey && event.shiftKey && event.keyCode == 73) || (event.ctrlKey && event.shiftKey && event.keyCode == 74)) {
+            } else if ((event.ctrlKey && event.shiftKey && event.keyCode == 73) || (event.ctrlKey && event.shiftKey && event.keyCode == 74)) {
                 return false;
             }
         });
