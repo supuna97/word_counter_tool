@@ -6,4 +6,4 @@ Disallow: /assets/
 User-agent: *
 Disallow:
 
-sitemap: http://word.traditionalme.life/sitemap.xml
+sitemap: http://word-counter.traditionalme.life/sitemap.xml
