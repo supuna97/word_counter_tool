@@ -2132,3 +2132,18 @@ input[type="text"] {
 .js .animate-box {
     opacity: 0;
 }
+
+.footer-css {
+    margin-top: 30px !important;
+    text-align: center !important
+}
+
+.title-new {
+    text-align: center !important;
+    color: #2D4B92 !important;
+    font-weight: bold !important;
+}
+
+.btn-dev {
+    text-align: center !important
+}
