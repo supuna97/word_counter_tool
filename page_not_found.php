@@ -16,7 +16,7 @@
     <div class="notfound">
         <img class="img-404" src="images/404.png" alt="supun nanayakkara">
         <br><br>
-        <h2>404 - Page not found</h2>
+        <h2>404 Page not found</h2>
         <p>The page you are looking for might have been removed had its name changed or is temporarily unavailable.</p>
         <a href="http://word-counter.traditionalme.life">Go To Homepage</a>
     </div>
