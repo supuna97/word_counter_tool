@@ -1,0 +1,6 @@
+ErrorDocument 404 /page_not_found.php
+#Not Found
+
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^([^\.]+)$ $1.php [NC,L]
